@@ -1,0 +1,23 @@
+{
+  "publications": [
+    {
+      "title": "Reliability-Aware Multi-View Fusion for Robust Multimodal Sarcasm Detection with Incomplete Observations",
+      "authors": [
+        "Hao Guo",
+        "Subin Huang†",
+        "Junjie Chen",
+        "Zhifa Geng",
+        "Sanmin Liu",
+        "Chao Kong"
+      ],
+      "venue": "ACM Transactions on Multimedia Computing, Communications and Applications (TOMM)",
+      "thumbnail": "images/thumbs/1.png",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "#",
+        "code": "#"
+      }
+    }
+  ]
+}
