@@ -23,6 +23,25 @@ const publicationsData = {
         "pdf": "#",
         "code": "#"
       }
+    },
+    {
+      "title": "Dynamic Gated Cross-Modal Fusion with Sarcastic-aware Contrastive Regularization for Multimodal Sarcasm Detection",
+      "authors": [
+        "Hao Guo",
+        "Subin Huang†",
+        "Junjie Chen",
+        "Zhifa Geng",
+        "Sanmin Liu",
+        "Chao Kong"
+      ],
+      "venue": "International Conference on Software Engineering and Knowledge Engineering (SEKE)",
+      "thumbnail": "images/thumbs/2.png",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "#",
+        "code": "#"
+      }
     }
   ]
 };
@@ -68,9 +87,9 @@ function renderPublications(selectedOnly) {
   const publicationsContainer = document.getElementById('publications-container');
   publicationsContainer.innerHTML = '';
   
-  const pubsToShow = selectedOnly ? 
-    allPublications.filter(pub => pub.selected === 1) : 
-    allPublications;
+  const pubsToShow = selectedOnly ?
+    allPublications.filter(pub => pub.selected === 1) :
+    [...allPublications].reverse();
   
   pubsToShow.forEach(publication => {
     const pubElement = createPublicationElement(publication);
