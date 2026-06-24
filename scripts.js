@@ -42,6 +42,25 @@ const publicationsData = {
         "pdf": "#",
         "code": "#"
       }
+    },
+    {
+      "title": "Complementary Encoder Refinement and Multilevel Crossmodal Interaction for Multimodal Sarcasm Detection",
+      "authors": [
+        "Hao Guo",
+        "Subin Huang†",
+        "Zhifa Geng",
+        "Junjie Chen",
+        "Sanmin Liu",
+        "Chao Kong"
+      ],
+      "venue": "Knowledge-Based Systems (KBS)",
+      "thumbnail": "images/thumbs/3.png",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "#",
+        "code": "#"
+      }
     }
   ]
 };
@@ -88,7 +107,7 @@ function renderPublications(selectedOnly) {
   publicationsContainer.innerHTML = '';
   
   const pubsToShow = selectedOnly ?
-    allPublications.filter(pub => pub.selected === 1) :
+    allPublications.filter(pub => pub.selected === 1).reverse() :
     [...allPublications].reverse();
   
   pubsToShow.forEach(publication => {
