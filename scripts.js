@@ -61,6 +61,25 @@ const publicationsData = {
         "pdf": "#",
         "code": "#"
       }
+    },
+    {
+      "title": "Dual-enhancement and Fusion with Knowledge-aware Semantic Alignment for Multimodal Sarcasm Detection",
+      "authors": [
+        "Subin Huang†",
+        "Hao Guo†,*",
+        "Jianqi Gao",
+        "Zhifa Geng",
+        "Junjie Chen",
+        "Chao Kong"
+      ],
+      "venue": "Pattern Recognition (PR)",
+      "thumbnail": "images/thumbs/4.png",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "#",
+        "code": "#"
+      }
     }
   ]
 };
